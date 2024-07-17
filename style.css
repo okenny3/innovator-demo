@@ -56,14 +56,14 @@ h1 {
 
     @media only screen and (min-width: 300px) {
         .superParent {
-            width: 90%;
+            width: 80%;
         }
     }
 
 
     @media only screen and (min-width: 550px) {
         .superParent {
-            width: 90%;
+            width: 80%;
         }
     }
 
