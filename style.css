@@ -61,6 +61,12 @@ h1 {
     }
 
 
+    @media only screen and (min-width: 550px) {
+        .superParent {
+            width: 90%;
+        }
+    }
+
 /* Small devices such as large phones (640px and up) */
 @media only screen and (min-width: 640px) {
     .superParent {
@@ -82,9 +88,18 @@ h1 {
     }
 }
 
+
+
 /* Largest devices such as desktops (1280px and up) */
 @media only screen and (min-width: 1280px) {
     .superParent {
-        width: 25%;
+        width: 40%;
+    }
+}
+
+/* Largest devices such as desktops (1280px and up) */
+@media only screen and (min-width: 1400px) {
+    .superParent {
+        width: 30%;
     }
 }
